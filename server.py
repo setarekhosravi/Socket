@@ -20,4 +20,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         print(f"Connected by {add}")
         data = con.recv(1024)
         print("Received message from client: ", data.decode('utf-8'))
-        con.sendall(b"Hello Client!!!")
+        con.sendall(b"Hello Client!!!")  # send to client in binary form
