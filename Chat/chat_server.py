@@ -20,4 +20,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
     print("Client connected: ", add)
     while True:
         data = con.recv(1024)
-        print(f"Received {data.decode("utf-8")} from {con.getpeername()}")
+        print(f"Received {data.decode('utf-8')} from {con.getpeername()}")
