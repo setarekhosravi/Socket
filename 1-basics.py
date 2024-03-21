@@ -10,3 +10,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server: # choose IPv4 
     print("server listening to incoming connections!")
 
     con, add = server.accept()
+
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client: # choose IPv4 as AF_INET
+    client.bind((IP, PORT))                                       # choose TCP as SOCK_STREAM
+    
