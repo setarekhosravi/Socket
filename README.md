@@ -14,3 +14,7 @@
 * Basic instructions (basic.py)
 * Define simple Server, Client
 * Create simple server/client chatting comunication
+
+### Mini-Projects
+#### Port Scanner
+Scan ports by getting IP address from the user.
