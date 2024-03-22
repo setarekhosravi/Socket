@@ -18,3 +18,6 @@
 ### Mini-Projects
 #### Port Scanner
 Scan ports by getting IP address from the user.
+
+#### CMD
+Enter commands from server to be executed on client computer.
