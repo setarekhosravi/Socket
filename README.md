@@ -27,4 +27,5 @@ Download txt file from server, Upload from client to server.
 
 
 ## Acknowledgments
-* Thank [Milad Moradi for his course, Socket Programming with Python](https://faradars.org/courses/network-programming-using-socket-module-in-python-fvpy306)
+* Thanks Milad Moradi for his course, Socket Programming with Python. 
+* You can find the course at Faradars, [Link](https://faradars.org/courses/network-programming-using-socket-module-in-python-fvpy306)
